@@ -15,7 +15,7 @@ public class Library {
     }
 
     public boolean contains(int floor, String closet, int shelf, Book book) {
-        if (book.getFloor() == floor && book.getCloset().equals(closet) && book.getShelf() == floor) {
+        if (book.getFloor() == floor && book.getCloset().equals(closet) && book.getShelf() == shelf) {
             return true;
         }
         return false;
